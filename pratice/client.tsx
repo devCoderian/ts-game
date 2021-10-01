@@ -5,8 +5,9 @@ import { hot } from 'react-hot-loader/root'
 //하이오더 컴포넌트 컴포넌트를 다름 컴포넌트로 감싸는 거
 import GuGuDan from './GuGuDan';
 import WordRelay from './WordRelay';
+import NumberBaseball from './NumberBaseball';
 
-const Hot = hot(WordRelay);
+const Hot = hot(NumberBaseball);
 ReactDOM.render( 
     // <GuGuDan />
     <Hot />
