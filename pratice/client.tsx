@@ -6,8 +6,8 @@ import { hot } from 'react-hot-loader/root'
 import GuGuDan from './GuGuDan';
 import WordRelay from './WordRelay';
 import NumberBaseball from './NumberBaseball';
-
-const Hot = hot(NumberBaseball);
+import ResponseCheck from './ResponseCheck'
+const Hot = hot(ResponseCheck);
 ReactDOM.render( 
     // <GuGuDan />
     <Hot />
